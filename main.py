@@ -20,4 +20,4 @@ app.register_blueprint(courier,url_prefix='/courier')
 app.register_blueprint(vendor,url_prefix='/vendor')
 
 
-app.run(debug=True,port=5340)
+app.run(debug=True)
