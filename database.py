@@ -7,6 +7,7 @@ database="sql12725108"
 
 
 
+
 def select(q):
 	con=mysql.connector.connect(user=user,password=password,host=host,database=database)
 	cur=con.cursor(dictionary=True)

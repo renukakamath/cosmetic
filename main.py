@@ -19,5 +19,5 @@ app.register_blueprint(courier,url_prefix='/courier')
 
 app.register_blueprint(vendor,url_prefix='/vendor')
 
-
-app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
